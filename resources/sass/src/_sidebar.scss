@@ -1,4 +1,23 @@
 .app-sidebar {
   width: 450px;
-  background-color: #cccccc;
+}
+
+.app-user-item {
+  &.active {
+    background-color: #ccc;
+  }
+  .card {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 0;
+    background-color: transparent;
+  }
+}
+
+.user-avatar {
+  width: 45px;
+  img{
+    border-radius: 50px;
+  }
 }
