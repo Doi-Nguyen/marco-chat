@@ -11149,13 +11149,20 @@ a.text-dark:focus {
 }
 
 .app-chat {
-  max-height: -webkit-calc(100vh - 200px);
-  max-height: calc(100vh - 200px);
+  height: -webkit-calc(100vh - 200px);
+  height: calc(100vh - 200px);
   overflow-y: hidden;
 }
 
 .app-sidebar {
   width: 450px;
+}
+
+.app-sidebar-main {
+  height: -webkit-calc(100vh - 200px);
+  height: calc(100vh - 200px);
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 .app-user-item.active {

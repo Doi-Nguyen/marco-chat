@@ -13,7 +13,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="app-sidebar-content">
+                <div class="app-sidebar-main">
                     <div class="app-user-list">
                         <div class="app-user-item active">
                             <div class="card flex-row p-4">
@@ -155,9 +155,13 @@
                 </div>
             </div>
             <div class="app-layout">
-                <div class="app-layout-tool"></div>
-                <div class="app-layout-main"></div>
-                <div class="app-layout-type"></div>
+                <div class="app-layout-tool">
+                    
+                </div>
+                <div class="app-layout-main">
+
+                    <div class="app-layout-type"></div>
+                </div>
             </div>
         </div>
     </div>
