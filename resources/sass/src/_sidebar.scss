@@ -1,18 +1,36 @@
 .app-sidebar {
-  width: 450px;
+  width: 30%;
 }
 
 .app-layout {
-  width: calc(100% - 450px);
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.app-layout-main {
+  flex: 1 1 auto;
+  background: url("./images/bg-chat.jpg");
+  background-size: cover;
 }
 
-.app-sidebar-main {
+.app-avatar {
+  img{
+    border-radius: 50px;
+  }
+}
+
+.app-border-5 {
+  border-radius: 5px;
+}
+
+.sidebar-main {
   height: calc(100vh - 200px);
   overflow: hidden;
   overflow-y: auto;
 }
 
-.app-user-item {
+.user-item {
   &.active {
     background-color: #ccc;
   }
@@ -27,11 +45,81 @@
 
 .user-avatar {
   width: 45px;
-  img{
-    border-radius: 50px;
-  }
 }
 
 .layout-tool {
   border-bottom: 1px solid #ebebeb;
+}
+
+//=================app-layout-chat=======================/
+.chat-history {
+  span{
+    display: inline-block;
+    font-size: 100%;
+  }
+}
+
+.chats{
+  padding: 0 1rem 0;
+}
+.chat  {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+
+  .chat-avatar {
+    width: 60px;
+  }
+  &.chat-not-mine {
+    justify-content: flex-start;
+    .chat-messages{
+      .chat-message{
+        background-color: #fff;
+        &:first-child{
+          &:before{
+            left: -10px;
+            border-right-color: $main;
+          }
+        }
+
+      }
+    }
+
+    .chat-avatar {
+      margin-right: 15px;
+    }
+  }
+  &.chat-mine {
+    justify-content: flex-end;
+    .chat-messages{
+      .chat-message{
+        background-color: $main;
+        &:first-child{
+          &:before{
+            left: -10px;
+            border-left-color: $main;
+          }
+        }
+      }
+    }
+
+  }
+  .chat-messages{
+    .chat-message {
+      position: relative;
+      padding: .5rem;
+      margin-bottom: .5rem;
+      &:first-child{
+        &:before {
+          position: absolute;
+          content: '';
+          top: 10px;
+          width: 0;
+          height: 0;
+          border: 5px solid transparent;
+        }
+      }
+    }
+  }
+
 }
