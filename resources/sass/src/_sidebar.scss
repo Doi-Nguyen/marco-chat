@@ -2,6 +2,10 @@
   width: 450px;
 }
 
+.app-layout {
+  width: calc(100% - 450px);
+}
+
 .app-sidebar-main {
   height: calc(100vh - 200px);
   overflow: hidden;
@@ -26,4 +30,8 @@
   img{
     border-radius: 50px;
   }
+}
+
+.layout-tool {
+  border-bottom: 1px solid #ebebeb;
 }

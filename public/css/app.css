@@ -11158,6 +11158,11 @@ a.text-dark:focus {
   width: 450px;
 }
 
+.app-layout {
+  width: -webkit-calc(100% - 450px);
+  width: calc(100% - 450px);
+}
+
 .app-sidebar-main {
   height: -webkit-calc(100vh - 200px);
   height: calc(100vh - 200px);
@@ -11185,5 +11190,9 @@ a.text-dark:focus {
 .user-avatar img {
   -webkit-border-radius: 50px;
           border-radius: 50px;
+}
+
+.layout-tool {
+  border-bottom: 1px solid #ebebeb;
 }
 
