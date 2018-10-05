@@ -10,7 +10,7 @@
 }
 .app-layout-main {
   flex: 1 1 auto;
-  background: url("./images/bg-chat.jpg");
+  background: url("../images/bg-chat.jpg");
   background-size: cover;
 }
 
@@ -78,7 +78,7 @@
         &:first-child{
           &:before{
             left: -10px;
-            border-right-color: $main;
+            border-right-color: #fff;
           }
         }
 
