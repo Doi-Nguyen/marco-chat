@@ -1,4 +1,16 @@
 .app-chat {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 150px);
   overflow-y: hidden;
+  > .container{
+    height: 100%;
+  }
+  .app-main {
+    height: 100%;
+  }
+}
+
+.app-scrollbar {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
 }

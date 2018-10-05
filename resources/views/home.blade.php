@@ -21,13 +21,40 @@
                                     <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
                                 </div>
                                 <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
                                         <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
+                                        <span class="badge badge-info">4</span>
+                                        {{--<span class="user-time">4:14 AM</span>--}}
                                     </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
+                                    {{--<div class="user-item-text d-flex justify-content-between">--}}
+                                        {{--<span class="message-sent"><i class=""></i> Okay</span>--}}
+                                        {{--<span class="message-number">12</span>--}}
+                                    {{--</div>--}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-item">
+                            <div class="card flex-row p-4">
+                                <div class="container-img user-avatar app-avatar mr-4">
+                                    <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
+                                        <span class="user-name">Elizabeth Elliott</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user-item">
+                            <div class="card flex-row p-4">
+                                <div class="container-img user-avatar app-avatar mr-4">
+                                    <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
+                                        <span class="user-name">Elizabeth Elliott</span>
                                     </div>
                                 </div>
                             </div>
@@ -38,13 +65,8 @@
                                     <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
                                 </div>
                                 <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
                                         <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
                                     </div>
                                 </div>
                             </div>
@@ -55,13 +77,8 @@
                                     <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
                                 </div>
                                 <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
                                         <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
                                     </div>
                                 </div>
                             </div>
@@ -72,13 +89,8 @@
                                     <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
                                 </div>
                                 <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
                                         <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
                                     </div>
                                 </div>
                             </div>
@@ -89,68 +101,30 @@
                                     <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
                                 </div>
                                 <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
+                                    <div class="user-item-heading d-flex justify-content-between align-items-center">
                                         <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="user-item">
-                            <div class="card flex-row p-4">
-                                <div class="container-img user-avatar app-avatar mr-4">
-                                    <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
-                                        <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="user-item">
-                            <div class="card flex-row p-4">
-                                <div class="container-img user-avatar app-avatar mr-4">
-                                    <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
-                                        <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="user-item">
-                            <div class="card flex-row p-4">
-                                <div class="container-img user-avatar app-avatar mr-4">
-                                    <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="user-item-heading d-flex justify-content-between mb-2">
-                                        <span class="user-name">Elizabeth Elliott</span>
-                                        <span class="user-time">4:14 AM</span>
-                                    </div>
-                                    <div class="user-item-text d-flex justify-content-between">
-                                        <span class="message-sent"><i class=""></i> Okay</span>
-                                        <span class="message-number">12</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                        {{--<div class="user-item">--}}
+                            {{--<div class="card flex-row p-4">--}}
+                                {{--<div class="container-img user-avatar app-avatar mr-4">--}}
+                                    {{--<img src="{{asset('/images/avatar_01.jpg')}}" alt="user">--}}
+                                {{--</div>--}}
+                                {{--<div class="card-body p-0">--}}
+                                    {{--<div class="user-item-heading d-flex justify-content-between mb-2">--}}
+                                        {{--<span class="user-name">Elizabeth Elliott</span>--}}
+                                        {{--<span class="user-time">4:14 AM</span>--}}
+                                    {{--</div>--}}
+                                    {{--<div class="user-item-text d-flex justify-content-between">--}}
+                                        {{--<span class="message-sent"><i class=""></i> Okay</span>--}}
+                                        {{--<span class="message-number">12</span>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>
@@ -172,13 +146,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="app-layout-main">
+                <div class="app-layout-main parallax">
                     <div class="app-layout-chat">
-                        <div class="layout-chat app-scrollbar">
+                        <div class="layout-chat">
                             <div class="chat-history text-center py-4 px-2">
                                 <span class="badge badge-dark badge-secondary">Chat History</span>
                             </div>
-                            <div class="chats-main">
+                            <div class="chats-main app-scrollbar">
                                 <div class="chats">
                                     <div class="chat chat-not-mine">
                                         <div class="chat-avatar container-img app-avatar">
@@ -187,18 +161,50 @@
                                         <div class="chat-messages">
                                             <div class="chat-message app-border-5">
                                                 <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
                                             </div>
                                             <div class="chat-message app-border-5">
                                                 <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
                                             </div>
                                             <div class="chat-message app-border-5">
                                                 <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="chat chat-mine">
+                                        <div class="chat-avatar container-img app-avatar">
+                                            <img src="{{asset('/images/avatar_02.jpg')}}" alt="user">
+                                        </div>
+                                        <div class="chat-messages">
+                                            <div class="chat-message app-border-5">
+                                                <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="chat chat-not-mine">
+                                        <div class="chat-avatar container-img app-avatar">
+                                            <img src="{{asset('/images/avatar_01.jpg')}}" alt="user">
+                                        </div>
+                                        <div class="chat-messages">
+                                            <div class="chat-message app-border-5">
+                                                <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
+                                            </div>
+                                            <div class="chat-message app-border-5">
+                                                <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
+                                            </div>
+                                            <div class="chat-message app-border-5">
+                                                <span class="message">How can we help? We are here for you!</span>
+                                                <span class="time">10:22 AM</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="app-layout-typing"></div>
