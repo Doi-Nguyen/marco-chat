@@ -1,11 +1,11 @@
 .app-chat {
   height: calc(100vh - 150px);
-  overflow-y: hidden;
   > .container{
     height: 100%;
   }
   .app-main {
     height: 100%;
+    overflow-y: hidden;
   }
 }
 

@@ -4,6 +4,11 @@
 
 .app-layout {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.app-layout-item{
+  flex: 1 1 auto;
 }
 .app-layout-main {
   flex: 1 1 auto;
@@ -47,10 +52,38 @@
   border-bottom: 1px solid #ebebeb;
 }
 
+.app-search {
+  height: 85px;
+}
+.sidebar-main {
+  height: calc(100% - 85px);
+}
+
 //=================app-layout-chat=======================/
 .app-layout-tool {
   height: 85px;
 }
+
+.app-layout-typing {
+  height: 60px;
+}
+.layout-typing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layout-typing .type-message {
+  flex-grow: 1;
+}
+
+.layout-typing .send-message {
+  margin-left: 30px;
+}
+
+.app-layout-main {
+  height: calc(100% - 145px);
+}
+
 .chat-history {
   span{
     display: inline-block;
